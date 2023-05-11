@@ -55,6 +55,4 @@ if __name__ == '__main__':
     with open('plays.json') as f:
         plays = json.load(f)
     
-    #print(type(invoices))
-    #print(type(plays))
     print(Troupe().statement(invoice=invoice[0], plays=plays))
